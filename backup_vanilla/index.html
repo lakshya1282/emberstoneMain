@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emberstone | Premium Whiskey</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <button class="nav-menu-btn" id="menu-btn">MENU</button>
+        </div>
+        <div class="nav-center">
+            <a href="#" class="nav-logo">EMBERSTONE</a>
+        </div>
+        <div class="nav-right">
+            <a href="#contact" class="nav-contact-btn">CONTACT</a>
+        </div>
+    </nav>
+
+    <div class="slider-menu" id="slider-menu">
+        <button class="menu-close-btn" id="menu-close-btn">CLOSE</button>
+        <div class="slider-menu-links">
+            <a href="#hero" class="slider-nav-link" style="--i: 1">Home</a>
+            <a href="#story" class="slider-nav-link" style="--i: 2">Our Story</a>
+            <a href="#collection" class="slider-nav-link" style="--i: 3">Collection</a>
+            <a href="#craft" class="slider-nav-link" style="--i: 4">The Craft</a>
+            <a href="#contact" class="slider-nav-link" style="--i: 5">Contact</a>
+        </div>
+    </div>
+    <main>
+        <section id="hero">
+            <!-- Persistent Background -->
+            <div class="hero-bg">
+                <div class="grain-overlay"></div>
+                <!-- New Composite Hero Image -->
+                <img src="new heri'.jpeg" alt="Emberstone Whiskey" class="hero-main-composite">
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-side-wrapper left" data-aos="fade-right" data-aos-delay="300">
+                    <h2 class="hero-side-title">FORGED IN FIRE</h2>
+                </div>
+
+                <!-- Central asset container preserved for text spacing if needed -->
+                <div class="hero-main-asset-dummy"></div>
+
+                <div class="hero-side-wrapper right" data-aos="fade-left" data-aos-delay="300">
+                    <h2 class="hero-side-title">GROUNDED IN STONE</h2>
+                </div>
+
+                <div class="hero-description">
+                    <p>BORN FROM THE INTENSE HEAT OF THE <br> FORGE AND TEMPERED BY THE ANCIENT <br> SILENCE OF STONE.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="pure-black-section" data-aos="fade-up">
+            <div class="story-layout-wrapper">
+                <div class="story-image-content">
+                    <img src="dd.png" alt="Emberstone Whiskey" class="story-image">
+                </div>
+                <div class="story-text-content">
+                    <h2 class="section-title">OUR BELIEF</h2>
+                    <p class="section-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor, nisl vel vehicula
+                        tincidunt, magna purus varius risus, nec lacinia magna mauris ut mauris. Suspendisse potenti.
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    </p>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="#" class="btn btn-secondary">Explore Collections</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="secondary-showcase" class="secondary-showcase">
+            <div class="secondary-content">
+                <img src="logo.png" alt="Emberstone Logo" class="secondary-logo">
+                <p class="secondary-narrative">
+                    BORN FROM THE INTENSE HEAT OF THE FORGE AND TEMPERED BY THE ANCIENT SILENCE OF STONE. <br>
+                    EVERY DROP AGED IN THE SHADOW OF GIANTS.
+                </p>
+                <div class="reveal-image-container">
+                    <img src="Emberstone_16x9-01.jpg" alt="The Source" class="reveal-image">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- GSAP and SplitType Animation Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <!-- AOS Animation Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Lenis Smooth Scroll JS -->
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
