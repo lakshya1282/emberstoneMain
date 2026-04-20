@@ -4,10 +4,7 @@ export default function Story() {
     <section id="story" className="pure-black-section" data-aos="fade-up">
       <div className="story-layout-wrapper">
         <div className="story-left">
-          <div className="story-title-group">
-            <span className="story-title-top">A <span className="first-letter">C</span>HARACTER</span>
-            <span className="story-title-bottom"><span className="first-letter">E</span>MERGES</span>
-          </div>
+          <img src="/character-emerges.png" alt="A CHARACTER EMERGES" className="story-title-img" />
         </div>
 
         <div className="story-center">

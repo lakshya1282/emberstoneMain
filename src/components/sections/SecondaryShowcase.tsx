@@ -58,7 +58,7 @@ export default function SecondaryShowcase() {
         <img src="/logo.png" alt="Emberstone Logo" className="secondary-logo" />
         
         <div className="secondary-text-group">
-          <h2 className="secondary-title">BORN OF FLAME</h2>
+          <img src="/born-of-flame.png" alt="BORN OF FLAME" className="secondary-title-img" />
           <p className="secondary-narrative">
             Across Ireland&apos;s ancient hills, fire tempers oak while stone shelters time. 
             Within these quiet spaces, Emberstone takes shape &mdash; triple distilled 

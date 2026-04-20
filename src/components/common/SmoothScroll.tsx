@@ -25,10 +25,37 @@ export default function SmoothScroll() {
     gsap.ticker.lagSmoothing(0);
 
     AOS.init({
-      duration: 1200,
-      easing: "ease-in-out",
+      duration: 1800, // Luxurious slow entrance
+      easing: "cubic-bezier(0.25, 1, 0.5, 1)", // Premium ease-out
       once: true,
       mirror: false,
+    });
+
+    // Global Subtle Parallax for Titles
+    // Note: .hero-side-title is NOT included here — it has its own dedicated
+    // parallax in ScrollEffects.tsx. Adding it here would double-stack the effect.
+    const titleSelectors = [
+      ".story-title-img",
+      ".process-title-img",
+      ".craft-title-img",
+      ".pouring-title-wrapper",
+      ".conclusion-title-wrapper-bottom",
+      ".secondary-title-img"
+    ];
+
+    titleSelectors.forEach((selector) => {
+      gsap.utils.toArray(selector).forEach((el: any) => {
+        gsap.to(el, {
+          y: -60, // Very subtle move up as requested
+          ease: "none",
+          scrollTrigger: {
+            trigger: el,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: true,
+          },
+        });
+      });
     });
 
     const refreshOnResize = () => {

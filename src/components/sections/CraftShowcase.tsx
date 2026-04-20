@@ -3,12 +3,7 @@ export default function CraftShowcase() {
     <section id="craft-showcase" className="craft-section">
       <div className="craft-content-wrapper">
         <div className="craft-left-container">
-          <h2 className="craft-title">
-            <span className="craft-title-top">SHAPED</span>
-            <span className="craft-title-bottom">
-              <span className="first-letter">B</span>Y <span className="first-letter">C</span>RAFT
-            </span>
-          </h2>
+          <img src="/shaped-by-craft.png" alt="SHAPED BY CRAFT" className="craft-title-img" />
         </div>
         
         <div className="craft-right-container">
