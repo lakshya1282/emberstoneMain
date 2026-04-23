@@ -5,12 +5,12 @@ export default function Process() {
     <section id="process" className="process-section" data-aos="fade-up">
       {/* Dedicated background layer for fading effect */}
       <div className="process-bg" data-aos="fade" data-aos-duration="2500"></div>
-      
+
       <div className="process-container">
         <div className="process-content">
-          <img 
-            src="/set-in-stone.png" 
-            alt="SET IN STONE" 
+          <img
+            src="/set-in-stone.png"
+            alt="SET IN STONE"
             className="process-title-img"
             data-aos="fade-right"
           />

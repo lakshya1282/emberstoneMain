@@ -112,7 +112,8 @@ a {
   height: 270px;
   width: auto;
   display: block;
-  margin-top: -6.6rem; /* Pulled up to align text with nav links */
+  margin-top: -6.6rem;
+  /* Pulled up to align text with nav links */
   transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -371,10 +372,10 @@ a {
   width: 100%;
   min-height: 80vh;
   background-color: #0a0a0a;
-  background-image: 
+  background-image:
     linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 35%),
     linear-gradient(to left, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 35%),
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('/41551ee80c1f68a43879a312daa8868d16720168.jpg');
   background-size: cover;
   background-position: center;
@@ -478,7 +479,8 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem 0;
-  border-bottom: 1px solid rgba(197, 160, 89, 0.3); /* Golden divider */
+  border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+  /* Golden divider */
 }
 
 .spec-row:last-child {
@@ -593,9 +595,9 @@ a {
 .process-bg {
   position: absolute;
   inset: 0;
-  background: 
+  background:
     linear-gradient(to bottom, #0a0a0a 0%, rgba(10, 10, 10, 0) 15%, rgba(10, 10, 10, 0) 85%, #0a0a0a 100%),
-    linear-gradient(to right, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 55%), 
+    linear-gradient(to right, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 55%),
     url("/kk.jpeg");
   background-size: cover;
   background-position: center;
@@ -637,7 +639,8 @@ a {
   overflow: hidden;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end; /* Bottom alignment for title */
+  align-items: flex-end;
+  /* Bottom alignment for title */
   padding: 8vh 5vw;
 }
 
@@ -656,7 +659,8 @@ a {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 2s ease-in-out; /* Subtle fading */
+  transition: opacity 2s ease-in-out;
+  /* Subtle fading */
 }
 
 .slideshow-img-wrapper.active {
@@ -671,13 +675,14 @@ a {
 }
 
 .slideshow-img.position-bottom {
-  object-position: center 70%; /* Shifted a little down from the hard bottom as requested */
+  object-position: center 70%;
+  /* Shifted a little down from the hard bottom as requested */
 }
 
 .slideshow-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.6) 100%);
   z-index: 2;
 }
 
@@ -701,7 +706,8 @@ a {
   width: 100%;
   height: 100vh;
   background: url("/pouring-scene.jpg");
-  background-size: 115%; /* Zoomed in slightly from cover */
+  background-size: 115%;
+  /* Zoomed in slightly from cover */
   background-position: center;
   background-attachment: fixed;
   z-index: 15;
@@ -711,13 +717,15 @@ a {
 }
 
 .pouring-content {
-  width: 50%; /* Adjusted for better coverage */
+  width: 50%;
+  /* Adjusted for better coverage */
   height: 100%;
   background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.95) 70%);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center grid within right half */
+  align-items: center;
+  /* Center grid within right half */
   padding: 0 5vw;
   position: relative;
   z-index: 20;
@@ -727,7 +735,8 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  gap: 4rem 3rem; /* Expanded gap to utilize more space */
+  gap: 4rem 3rem;
+  /* Expanded gap to utilize more space */
   width: 100%;
   max-width: 650px;
 }
@@ -796,7 +805,7 @@ a {
   height: auto;
   display: block;
   margin-bottom: 1.8rem;
-  filter: drop-shadow(0 0 30px rgba(0,0,0,0.3));
+  filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.3));
 }
 
 .process-description {
@@ -912,7 +921,8 @@ a {
 .label-divider {
   width: 1px;
   height: 45px;
-  background-color: #8b6f4e; /* Golden brown consistent with theme */
+  background-color: #8b6f4e;
+  /* Golden brown consistent with theme */
 }
 
 
@@ -1262,13 +1272,11 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    to right, 
-    rgba(0, 0, 0, 0.7) 0%, 
-    rgba(0, 0, 0, 0.2) 30%, 
-    rgba(0, 0, 0, 0.2) 70%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  background: linear-gradient(to right,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0.2) 70%,
+      rgba(0, 0, 0, 0.8) 100%);
   z-index: 1;
 }
 
@@ -1348,6 +1356,7 @@ a {
   color: rgba(255, 255, 255, 0.9);
   line-height: 1.8;
   letter-spacing: 0.05em;
-  border-top: 1px solid rgba(197, 160, 89, 0.5); /* Golden divider */
+  border-top: 1px solid rgba(197, 160, 89, 0.5);
+  /* Golden divider */
   padding-top: 2rem;
 }
